@@ -1,4 +1,5 @@
 # mmath
 
-### data realease
+### data realeas
+Discrete mathematics
 
