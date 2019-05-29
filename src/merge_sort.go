@@ -9,9 +9,9 @@ func main() {
 }
 
 /**
-归并排序（Merge sort，台湾译作：合并排序）是建立在归并操作上的一种有效的排序算法。该算法是采用分治法（Divide and Conquer）的一个非常典型的应用
-分治思想，时间复杂度为：O(n*log(n))
- java 中Arrays.sort() ，也是用归并排序来实现的.
+归并排序（MERGE-SORT）是建立在归并操作上的一种有效的排序算法,该算法是采用分治法（Divide and Conquer）的一个非常典型的应用。
+时间复杂度为：O(n*log(n))
+java 中Arrays.sort() ，就是用归并排序来实现的.
 
 */
 
