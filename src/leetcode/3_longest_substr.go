@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-
+//
 func main(){
 	s := `aaabcddde`
 	start,max := lenOfLongestSubstring(s)
@@ -10,7 +10,7 @@ func main(){
 }
 
 
-
+//返回符合条件的子串的起始index和length
 func lenOfLongestSubstring(s string) (int,int) {
 	m := make(map[rune]int)
 	start, max := -1, 0
