@@ -12,14 +12,13 @@ import (
 //The median is 2.0
 
 func main(){
-	nums1 := []int{1,2,3,6}
+	nums1 := []int{1,2,3,6,9,17}
 	nums2 := []int{4,5,6,7}
 	result := findMedOf2Arrs(nums1,nums2)
 	fmt.Println(result)
 }
 
-//求两个有序数组的中位数
-
+//
 func findMedOf2Arrs(nums1 []int, nums2 []int) float64 {
 	nums1 = append(nums1,nums2...)
 	sort.Ints(nums1)
